@@ -46,9 +46,9 @@
     color: #fff; }
 
 #new {
-  bottom: 8px;
-  left: 55px;
-  width: 15% !important; }
+  bottom: 75px;
+  left: 25px;
+  width: 25% !important; }
 
 #slider_pro .swiper-container {
   width: 100%;
@@ -126,6 +126,9 @@ body {
 .color-gray {
   color: #767676 !important; }
 
+.color-main-two {
+  color: #f0d8cb !important; }
+
 .color-brown {
   color: #9e724c !important; }
 
@@ -241,6 +244,9 @@ body {
 .color-gray {
   color: #767676 !important; }
 
+.color-main-two {
+  color: #f0d8cb !important; }
+
 .color-brown {
   color: #9e724c !important; }
 
@@ -356,6 +362,9 @@ body {
 
 .color-gray {
   color: #767676 !important; }
+
+.color-main-two {
+  color: #f0d8cb !important; }
 
 .color-brown {
   color: #9e724c !important; }
