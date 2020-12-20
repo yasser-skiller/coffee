@@ -13,6 +13,7 @@ arr_active_link.forEach(element => {
 var swiper = new Swiper('.swiper-container', {
   slidesPerView: 1,
   spaceBetween: 10,
+  loop: true,
   // init: false,
   pagination: {
     el: '.swiper-pagination',
@@ -20,11 +21,11 @@ var swiper = new Swiper('.swiper-container', {
   },
   breakpoints: {
     640: {
-      slidesPerView: 1,
+      slidesPerView: 2,
       spaceBetween: 20,
     },
     768: {
-      slidesPerView: 1,
+      slidesPerView: 2,
       spaceBetween: 40,
     },
     // 1024: {
