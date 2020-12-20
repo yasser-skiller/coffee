@@ -11,31 +11,28 @@ arr_active_link.forEach(element => {
 });
 
 var swiper = new Swiper('.swiper-container', {
-  slidesPerView: 1,
+  slidesPerView: 1.5,
   spaceBetween: 30,
-  slidesPerGroup: 1,
-  // loop: true,
-  loopFillGroupWithBlank: true,
+  // init: false,
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
   },
-  // breakpoints: {
-  //   640: {
-  //     slidesPerView: 1,
-  //     spaceBetween: 20,
-  //   },
-  //   768: {
-  //     slidesPerView: 1,
-  //     spaceBetween: 40,
-    // },
-    // 1024: {
-    //   slidesPerView: 5,
-    //   spaceBetween: 50,
-    // },
-  // }
+  breakpoints: {
+    640: {
+      slidesPerView: 1.5,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 1.5,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 1.5,
+      spaceBetween: 50,
+    },
+  }
 });
-
 // var swiper = new Swiper('.swiper-container', {
 //   slidesPerView: 4,
 //   centeredSlides: true,
