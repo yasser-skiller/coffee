@@ -11,10 +11,11 @@ arr_active_link.forEach(element => {
 });
 
 var swiper = new Swiper('.swiper-container', {
-  slidesPerView: 1,
+  slidesPerView: 3,
   spaceBetween: 30,
+  slidesPerGroup: 3,
   // loop: true,
-  init: false,
+  loopFillGroupWithBlank: true,
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
