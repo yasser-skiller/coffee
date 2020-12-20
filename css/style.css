@@ -45,6 +45,11 @@
   .sp_header .Main_title p {
     color: #fff; }
 
+#new {
+  bottom: 8px;
+  left: 55px;
+  width: 15% !important; }
+
 #slider_pro .swiper-container {
   width: 100%;
   height: -webkit-fit-content;
