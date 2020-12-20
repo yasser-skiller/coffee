@@ -11,9 +11,9 @@ arr_active_link.forEach(element => {
 });
 
 var swiper = new Swiper('.swiper-container', {
-  slidesPerView: 1,
-  spaceBetween: 10,
-  loop: true,
+  slidesPerView: 2,
+  spaceBetween: 30,
+  // loop: true,
   // init: false,
   pagination: {
     el: '.swiper-pagination',
