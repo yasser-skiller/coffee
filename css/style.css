@@ -52,9 +52,7 @@
 
 #slider_pro .swiper-container {
   width: 100%;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content; }
+  height: 80hv; }
 
 #slider_pro .swiper-slide {
   text-align: center;
@@ -73,7 +71,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 370px !important; }
+  width: 450px !important; }
 
 #slider_pro .swiper-pagination {
   bottom: 8px !important;
