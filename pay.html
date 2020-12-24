@@ -1,166 +1,396 @@
 <!DOCTYPE html>
-<html>
+<html lang="ar" dir="rtl">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rahaw </title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">  
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rakkas&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">   
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style-rtl.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/d24b72e522.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
-      <div class="container">
-          <form action="#" class="row row-clos-1 row-cols-lg-2 justify-content-center">
 
-            <section class="p-4 my-5 color-red" id="your_bill">
+    <nav class="navbar navbar-expand-lg navbar-light rlt hide-up mb-3">
+        <div class="container-fluid">
+          <a class="navbar-brand color-main ff-n" href="#" style="font-size: 60px;">أونيكا</a>
+          <div class="justify-content-end">
+            <div class="navbar-nav flex-row" id="nnaavv">
+              <a class="p-3 color-main Nav-link-active" href="#">قهوتنا الخاصة</a>
+              <a class="p-3 color-main" href="#">قهوة عربية</a>
+              <a class="p-3 color-main" href="#">قهوة مختصة</a>
+              <a class="p-3 color-main" href="#">هيل و زعفران</a>
 
-                <h3 class="text-center text-white">طلبك</h3>
-                <br>
-                <div class="p-4 bg-white">
+            </div>
+          </div>
+        </div>
+    </nav>
 
-                    <div class="d-flex justify-content-between border-b">
-                        <p>المجموع</p>
-                        <p>المنتج</p>
-                    </div>
+    <nav class="row p-3 hide-down mb-3">
 
-                    <div class="d-flex justify-content-between border-b mt-3 color-red">
-                        <p>100.00 ر.س</p>
-                        <p>1 x Dyzzi002</p>
-                    </div>
+        <div class="col-3 text-right">
+            <img src="img/shopping-cart.svg" class=" shopping-cart mt-3">
+        </div>
+        <div class="col">
+            <img src="img/logo-sm.png" class="w-75 logo-sm"> 
+        </div>
 
-                    <div class="d-flex justify-content-between border-b mt-3 ">
-                        <p>100.00 ر.س</p>
-                        <p>المجموع</p>
-                    </div>
+    </nav>
+        
 
-                    <div class="d-flex justify-content-between border-b mt-3 color-red">
-                        <p>ادخل عنوانك لعرض خيارات الشحن</p>
-                        <p>الشحن </p>
-                    </div>
+    <div class="main-page-wrapper">
+		
+        <div class="page-title page-title-default title-size-default title-design-centered color-scheme-light" style="background-color: #4b3231">
+            <div class="container">
 
-                    <div class="d-flex justify-content-between border-b mt-3 ">
-                        <p>15.00 ر.س</p>
-                        <p>ضريبة القيمة المضافة % 15</p>
-                    </div>
-
-                    <div class="d-flex justify-content-between border-b mt-3 ">
-                        <p>115.00 ر.س</p>
-                        <p>الإجمالي</p>
-                    </div>
-
+                <header class="entry-header">
+                    <div class="woodmart-checkout-steps">
+                        <ul>
+                            <li class="step-cart step-inactive">
+                                <a href="">
+                                    <span>سلة التسوق</span>
+                                </a>
+                            </li>
+                            <li class="step-checkout step-active">
+                                <a href="">
+                                    <span>اتمام الطلب</span>
+                                </a>
+                            </li>
+                            <li class="step-complete step-inactive">
+                                <span>اكتمال الطلب</span>
+                            </li>
+                        </ul>
                 </div>
-                <br>
-
-                <div class="row row-clos-1 row-cols-lg-2 justify-content-center">
-
-                    <div class="d-flex mb-3">
-
-                        <div class="d-flex tap">
-                            <div class="cr_1 mr-2"><div class="cr_2"></div></div>
-                            <h5 class="text-white">tap</h5>
-                        </div>
-                        
-                        <div class="d-flex mx-3 cr-border">
-                            <img src="img/mastercard.svg" class="pay_icon mr-2">
-                            <img src="img/visa.svg" class="pay_icon mr-2">
-                            <img src="img/mastercard.svg" class="pay_icon mr-2 ">
-                            <img src="img/visa.svg" class="pay_icon mr-2">
-                        </div>
-
-                    </div>
-
-
-                    <div class="d-flex text-white">
-                        <span>مدي /</span>
-                        <span>ماستر كارد /</span>
-                        <span>فيزا /</span>
-                        <span>ابل باي</span>
-                    </div>
-
-                </div>
-
-                <br>
-
-                <div class="bg-white pr-2 border-b">
-                    <p class="color-red text-right p-3">يستغرق وصول الطلبات من يوم إلي أربع ايام</p>
-                </div>
-                <hr>
-
-                <div class="text-right pr-3 rlt mb-3">
-                    <input type="checkbox" id="igree" class="form-check-input" style="margin-right: -15px;">
-                    <label class="form-check-label text-white" for="igree"> 
-                        لقد قرأت الشروط و الأحكام وسياسة الخصوصية لهذا المتجر و اوافق عليها <sup class="text-danger">*</sup>
-                    </label>
-                </div>
-                <br>
-
-                <button class="btn text-light w-100 py-2 bg-brown">تأكيد الطلب </button>
-
-            </section>
-
-            <section class="p-4  my-5 bg-white color-red" >
-                <h4 class="text-right">الفتورة و الشحن </h4>
-
-                <div class="row row-clos-1 row-cols-lg-2 mb-3 rlt">
+                </header>
                 
-                    <div class="px-2 mb-3">
-                        <label class="rlt float-right">الأسم <sup class="text-danger">*</sup></label><br>
-                        <input type="text" class="form-control" required>
-                    </div>
+            </div>
+       </div>
 
-                    <div class="px-2 mb-3">
-                        <label class="rlt float-right">رقم الجوال <sup class="text-danger">*</sup></label><br>
-                        <input type="text" class="form-control" required>
-                    </div>
+
+        <div class="container">
+            <div class="row content-layout-wrapper align-items-start">
+
+                <div class="site-content col-lg-12 col-12 col-md-12" role="main">
+
+                    <article id="post-363" class="post-363 page type-page status-publish hentry">
+
+                        <div class="entry-content">
+                            
+                            <div class="woocommerce text-right">
+                                <div class="woocommerce-notices-wrapper"></div>
+                                <div class="woocommerce-form-login-toggle">
+
+                                <div class="woocommerce-info">عميل سابق؟ <a href="#" class="showlogin">أنقر هنا لتسجيل الدخول</a>	</div>
+                                </div>
+                                <form class="login woocommerce-form woocommerce-form-login hidden-form" style="display:none;">
+
+                                        <p>إذا تسوّقت بمتجرنا من قبل ولديك حساب لدينا، الرجاء إدخال تفاصيل دخولك بالأسفل. وإذا كنت عميلاً جديدًا، فيرجى منك المتابعة إلى قسم الفاتورة.</p>
+
+                                        <p class="woocommerce-FormRow woocommerce-FormRow--wide form-row form-row-wide form-row-username">
+                                            <label for="username">اسم المستخدم أو البريد الإلكتروني&nbsp;<span class="required">*</span></label>
+                                            <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="username" id="username" autocomplete="username" value="">
+                                        </p>
+                                        <p class="woocommerce-FormRow woocommerce-FormRow--wide form-row form-row-wide form-row-password">
+                                            <label for="password">كلمة المرور&nbsp;<span class="required">*</span></label>
+                                            <span class="password-input"><input class="woocommerce-Input woocommerce-Input--text input-text" type="password" name="password" id="password" autocomplete="current-password"><span class="show-password-input"></span></span>
+                                        </p>
+
+
+                                        <p class="form-row">
+                                            <input type="hidden" id="woocommerce-login-nonce" name="woocommerce-login-nonce" value="f64bd9b1fb"><input type="hidden" name="_wp_http_referer" value="/checkout/">											<input type="hidden" name="redirect" value="https://dyzzistore.com/checkout/">
+                                            <button type="submit" class="button woocommerce-button woocommerce-form-login__submit" name="login" value="دخول">دخول</button>
+                                        </p>
+
+                                        <div class="login-form-footer">
+                                            <a href="" class="woocommerce-LostPassword lost_password">هل نسيت كلمة المرور؟</a>
+                                            <label class="woocommerce-form__label woocommerce-form__label-for-checkbox woocommerce-form-login__rememberme">
+                                                <input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" value="forever"> <span>تذكرني</span>
+                                            </label>
+                                        </div>
+
+                                </form>
+
+                                <div class="woocommerce-form-coupon-toggle">
+
+                                    <div class="woocommerce-info">هل لديك قسيمة؟ <a href="#" class="showcoupon">أنقر هنا لإدخال رمز القسيمة</a>	</div>
+                                </div>
+
+                                <form class="checkout_coupon woocommerce-form-coupon" method="post" style="display:none">
+
+                                    <p>إذا كان لديك رمز القسيمة، فيرجى استخدامه أدناه.</p>
+
+                                    <p class="form-row form-row-first">
+                                    <input type="text" name="coupon_code" class="input-text" placeholder="رمز القسيمة" id="coupon_code" value="">
+                                    </p>
+
+                                    <p class="form-row form-row-last">
+                                    <button type="submit" class="button" name="apply_coupon" value="استخدام القسيمة">استخدام القسيمة</button>
+                                    </p>
+
+                                <div class="clear"></div>
+                                </form>
+
+                                <div class="woocommerce-notices-wrapper"></div>
+                                <form name="checkout" method="post" class="checkout woocommerce-checkout row"  enctype="multipart/form-data" novalidate="novalidate">
+
+                                    <div class="col-12 col-md-5 col-lg-6">
+
+                                        <div class="row" id="customer_details">
+                                            <div class="col-12">
+                                                <div class="woocommerce-billing-fields">
+
+                                                    <h3>الفوترة والشحن</h3>
+
+                                                    <div class="woocommerce-billing-fields__field-wrapper">
+                                                        <p class="form-row form-row-first thwcfd-field-wrapper thwcfd-field-text validate-required" id="billing_first_name_field" data-priority="10">
+                                                            <label for="billing_first_name" class="">الاسم&nbsp;<abbr class="required" title="مطلوب">*</abbr></label>
+                                                            <span class="woocommerce-input-wrapper">
+                                                                <input type="text" class="input-text " name="billing_first_name" id="billing_first_name" placeholder="" value="" autocomplete="given-name">
+                                                            </span>
+                                                        </p>
+                                                        <p class="form-row form-row-last thwcfd-field-wrapper thwcfd-field-tel validate-required validate-phone" id="billing_phone_field" data-priority="30">
+                                                            <label for="billing_phone" class="">رقم الجوال&nbsp;<abbr class="required" title="مطلوب">*</abbr></label>
+                                                            <input type="tel" class="input-text " name="billing_phone" id="billing_phone" placeholder="0512345678" value="" autocomplete="off">
+                                                            <!-- <span class="woocommerce-input-wrapper">
+                                                                <div class="intl-tel-input allow-dropdown">
+                                                                    <div class="flag-container">
+                                                                        <div class="selected-flag" role="combobox" aria-owns="country-listbox" tabindex="0" title="Saudi Arabia (&#8235;المملكة العربية السعودية&#8236;&lrm;): +966">
+                                                                            <div class="iti-flag sa"></div>
+                                                                            <div class="iti-arrow"></div>
+                                                                        </div>
+                                                                        <ul class="country-list hide" id="country-listbox" aria-expanded="false" role="listbox" aria-activedescendant="iti-item-sa">
+                                                                            <li class="country standard active" id="iti-item-sa" role="option" data-dial-code="966" data-country-code="sa" aria-selected="true">
+                                                                                <div class="flag-box">
+                                                                                    <div class="iti-flag sa"></div>
+                                                                                </div>
+                                                                                <span class="country-name">Saudi Arabia (&#8235;المملكة العربية السعودية&#8236;&lrm;)</span>
+                                                                                <span class="dial-code">+966</span>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                    <span class="int-phone error-msg hide" style="display: none;">الرقم خطأ</span>
+                                                                    <span class="int-phone valid-msg hide" style="display: none;">صحيح</span>
+                                                                </div>
+                                                            </span> -->
+                                                        </p>
+                                                        <p class="form-row form-row-first thwcfd-field-wrapper thwcfd-field-email validate-email" id="billing_email_field" data-priority="40">
+                                                            <label for="billing_email" class="">البريد الإلكتروني&nbsp;<span class="optional">(اختياري)</span></label>
+                                                            <span class="woocommerce-input-wrapper">
+                                                                <input type="email" class="input-text " name="billing_email" id="billing_email" placeholder="" value="" autocomplete="email">
+                                                            </span>
+                                                        </p>
+                                                        <p class="form-row address-field form-row-first update_totals_on_change thwcfd-field-wrapper thwcfd-field-country validate-required" id="billing_country_field" data-priority="50">
+                                                            <label for="billing_country" class="">الدولة&nbsp;<abbr class="required" title="مطلوب">*</abbr></label>
+                                                            <span class="woocommerce-input-wrapper">
+                                                                <strong> المملكة العربية السعودية   </strong>
+                                                                <input type="hidden" name="billing_country" id="billing_country" value="SA" autocomplete="country" class="country_to_state" readonly="readonly">
+                                                            </span>
+                                                        </p>
+                                                        <p class="form-row flex-column address-field thwcfd-field-wrapper thwcfd-field-state validate-required validate-state form-row-wide" id="billing_state_field" data-priority="60" data-o_class="form-row form-row-wide address-field thwcfd-field-wrapper thwcfd-field-state validate-required validate-state">
+                                                            <label for="billing_state" class="">المدينة&nbsp;<abbr class="required" title="مطلوب">*</abbr></label>
+                                                            <span class="woocommerce-input-wrapper">
+                                                                <select name="billing_state" id="billing_state" class="state_select select2-hidden-accessible" autocomplete="address-level1" data-placeholder="المدينة" data-input-classes="" tabindex="-1" aria-hidden="true">
+                                                                    <option value="">حدد خيارًا…</option>
+                                                                    <option value="الرياض">الرياض</option>
+                                                                    <option value="خارج الرياض">خارج الرياض</option>
+                                                                </select>
+                                                                <!-- <span class="select2 select2-container select2-container--default" dir="rtl" style="width: 100%;">
+                                                                    <span class="selection">
+                                                                        <span class="select2-selection select2-selection--single" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-billing_state-container" role="combobox">
+                                                                            <span class="select2-selection__rendered" id="select2-billing_state-container" role="textbox" aria-readonly="true">
+                                                                                <span class="select2-selection__placeholder">المدينة</span>
+                                                                            </span>
+                                                                            <span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span>
+                                                                        </span>
+                                                                    </span>
+                                                                    <span class="dropdown-wrapper" aria-hidden="true"></span>
+                                                                </span> -->
+                                                            </span>
+                                                        </p>
+                                                        <p class="form-row  form-row-wide thwcfd-field-wrapper thwcfd-field-text validate-required" id="billing_customcity_field" data-priority="70" style="display: none;">
+                                                            <label for="billing_customcity" class="">المدينة&nbsp;<abbr class="required" title="مطلوب">*</abbr></label>
+                                                            <span class="woocommerce-input-wrapper">
+                                                                <input type="text" class="input-text " name="billing_customcity" id="billing_customcity" placeholder="المدينة" value="">
+                                                            </span>
+                                                        </p>
+                                                        <p class="form-row flex-column address-field thwcfd-field-wrapper thwcfd-field-text validate-required form-row-wide" id="billing_address_1_field" data-priority="80">
+                                                            <label for="billing_address_1" class="">الحي&nbsp;<abbr class="required" title="مطلوب">*</abbr></label>
+                                                            <span class="woocommerce-input-wrapper">
+                                                                <input type="text" class="input-text " name="billing_address_1" id="billing_address_1" placeholder="" value="" autocomplete="address-line1"></span>
+                                                        </p>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-12">
+                                                <div class="woocommerce-shipping-fields"></div>
+                                                
+                                                <div class="woocommerce-additional-fields">
+                                                    <h3>معلومات إضافية</h3>
+
+                                                    <div class="woocommerce-additional-fields__field-wrapper">
+                                                        <p class="form-row notes thwcfd-field-wrapper thwcfd-field-textarea" id="order_comments_field" data-priority="10">
+                                                            <label for="order_comments" class="">ملاحظات&nbsp;<span class="optional">(اختياري)</span></label>
+                                                            <span class="woocommerce-input-wrapper">
+                                                                <textarea name="order_comments" class="input-text " id="order_comments" placeholder="ملاحظات حول الطلب، مثال: ملحوظة خاصة بتسليم الطلب." rows="9" cols="65"></textarea>
+                                                            </span>
+                                                        </p>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-12 col-md-7 col-lg-6">
+                                        <div class="checkout-order-review">	
+                                            <h3 id="order_review_heading">طلبك</h3>
+
+
+                                            <div id="order_review" class="woocommerce-checkout-review-order">
+                                                <div class="woodmart-table-wrapper">
+                                                    <table class="shop_table woocommerce-checkout-review-order-table">
+
+                                                        <thead>
+                                                            <tr>
+                                                                <th class="product-name">المنتج</th>
+                                                                <th class="product-total">المجموع</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr class="cart_item">
+                                                                <td class="product-name">
+                                                                    Dyzzi003&nbsp;<strong class="product-quantity">×&nbsp;1</strong>											</td>
+                                                                <td class="product-total">
+                                                                    <span class="woocommerce-Price-amount amount"><bdi>100.00&nbsp;<span class="woocommerce-Price-currencySymbol">ر.س</span></bdi></span>					</td>
+                                                            </tr>
+                                                        </tbody>
+                                                        <tfoot>
+
+                                                            <tr class="cart-subtotal">
+                                                                <th>المجموع</th>
+                                                                <td><span class="woocommerce-Price-amount amount"><bdi>100.00&nbsp;<span class="woocommerce-Price-currencySymbol">ر.س</span></bdi></span></td>
+                                                            </tr>
+
+                                                            <tr class="woocommerce-shipping-totals shipping">
+                                                                <th>الشحن</th>
+                                                                <td data-title="الشحن">
+                                                                أدخل عنوانك لعرض خيارات الشحن.
+
+                                                                </td>
+                                                            </tr>
+
+                                                            <tr class="tax-rate tax-rate-sa-%d8%b6%d8%b1%d9%8a%d8%a8%d8%a9-%d8%a7%d9%84%d9%82%d9%8a%d9%85%d8%a9-%d8%a7%d9%84%d9%85%d8%b6%d8%a7%d9%81%d8%a9-15-1">
+                                                                <th>ضريبة القيمة المضافة 15%</th>
+                                                                <td><span class="woocommerce-Price-amount amount">15.00&nbsp;<span class="woocommerce-Price-currencySymbol">ر.س</span></span></td>
+                                                            </tr>
+                                                                            
+                                                            <tr class="order-total">
+                                                                <th>الإجمالي</th>
+                                                                <td><strong><span class="woocommerce-Price-amount amount"><bdi>115.00&nbsp;<span class="woocommerce-Price-currencySymbol">ر.س</span></bdi></span></strong> </td>
+                                                            </tr>
+
+
+                                                        </tfoot>
+                                                </table>
+
+                                                </div>
+
+                                                <div id="payment" class="woocommerce-checkout-payment">
+                                                        <ul class="wc_payment_methods payment_methods methods">
+                                                            <li class="wc_payment_method payment_method_tap">
+                                                                <input id="payment_method_tap" type="radio" class="input-radio" name="payment_method" value="tap" checked="checked" data-order_button_text="" style="display: none;">
+
+                                                                <label for="payment_method_tap">ابل باي/ فيزا / ماستر كارد / مدى <img src="https://dyzzistore.com/wp-content/plugins/tap-payments/assets/img/logo.png" alt="ابل باي/ فيزا / ماستر كارد / مدى">	</label>
+                                                                <div class="payment_box payment_method_tap">
+                                                                    <p>يستغرق وصول الطلبات من يوم الى 4 الى اربعة ايام .</p>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                        <div class="form-row place-order">
+                                                            <noscript>
+                                                            بما أن متصفحك لا يدعم جافاسكربت أو أنها معطلة، يرجى التتأكد من الضغط على زرّ <em>تحديث المجموع</em> قبل تأكيد طلبك. قد يتم تحميلك أكثر من المبلغ المذكور أعلاه إذا لم تفعل ذلك.			<br/><button type="submit" class="button alt" name="woocommerce_checkout_update_totals" value="تحديث الإجمالي">تحديث الإجمالي</button>
+                                                            </noscript>
+
+                                                            <div class="woocommerce-terms-and-conditions-wrapper">
+                                                                <div class="woocommerce-privacy-policy-text"></div>
+                                                                <div class="woocommerce-terms-and-conditions" style="display: none; max-height: 200px; overflow: auto;">
+                                                                    <p>هذه هي والشروط التي الأحكام استخدام www.dyzzistorecom والنطاقات الفرعية، والمواقع والخدمات والأدوات ذات الصلة<br>أيّها الضيف الكريم، إثر زيارتك للموقع، أنت تضمنُ موافقتك على الشروط والأحكام الحالية. وإن كنت لا توافق عليها، يجدر بك عدم استخدام هذا الموقع. يحتفظ الموقع بالحقّ في تغيير أجزاءٍ من شروط الاستخدام والأحكام أو تعديلها أو إضافة البعض منها، أو إزالتها في أي وقتٍ من الأوقات. وتصبح التغييراتُ فعّالةً عندما يتمّ نشرها على الموقع من دون سابق إنذار. يُرجى مراجعة شروط الاستخدام والأحكام بشكلٍ منتظمٍ لمواكبة كلّ التحديثات. ويشكّل استخدامك المستمرّ للموقع موافقتك التامة على كلّ التغييرات التي يجري إحداثها على شروط الاستخدام والأحكام<br>&nbsp;كيفيّة استخدام الموقع<br>العمر<br>أيّها الضيف الكريم، إمّا تبلغ من العمر ثمانية عشر عامًا أو تزور هذا الموقع تحت إشراف أحد الوالدين أو الوصي القانوني. نمنحك ترخيصًا غير قابلٍ للتحويل أو الإلغاء لكي تستخدم الموقع تحت الشروط والأحكام المحدّدة. وتكمن غاية هذا الترخيص في التسوّق لشراء سلعٍ شخصية تُباع على الموقع. ويُحظر الاستخدام لأغراضٍ تجارية أو الاستخدام باسم أي طرفٍ ثالث، باستثناء ما تمّ السماح به من قبلنا بوضوح وشفافية سلفًا. ويؤدي أي خرق لهذه الشروط والأحكام إلى إلغاء فوري للترخيص الممنوح في هذه الفقرة من دون أي سابق إنذار.<br>المحتوى</p>
+                                                                    <p>إذا قمت بتوفير أية معلومات غير صحيحة أو غير دقيقة أو غير كاملة أو إذا كان لدى dyzzistore أسباب معقولة للاشتباه بأن هذه المعلومات غير صحيحة أو غير دقيقة غير كاملة أو لا تتفق مع اتفاقية المستخدم هذه دونما الأخلال بأية حقوق وتعويضات من&nbsp; dyzzistore بموجب هذا الاتفاق لدينا الحق في تعليق إلى أجل غير مسمى، والحد من أو سحب وصولك إلى الموقع و / أو عضويتكم من الموقع<br>التواصل الإلكتروني<br>إنّك توافق، أثناء عملية التسجيل، على تلقي رسائل إلكترونية ترويجية من قِبل الموقع. ويمكنك، في وقتٍ لاحق، إلغاء هذا الخيار وعدم تلقي رسائل إلكترونية ترويجية من خلال الضغط على الرابط في الجزء السفلي من أية رسالة إلكترونية ترويجية.</p>
+                                                                    <p>الموافقة على الطلبيات والتسعير<br>الطلبات<br>يحتفظ الموقع بالحقّ في رفض أو إلغاء أية طلبية لأي سببٍ من الأسباب وفي أي وقتٍ من الأوقات. وقبل أن نوافق على الطلبية قد نطلب منك تقديم معلومات أو تأكيدات إضافية، بما في ذلك ولكن ليس على سبيل الحصر، رقم الهاتف والعنوان.<br>وصف المنتجات<br>في حال كان المنتج المعروض على الموقع مخالفا ً للوصفة على الموقع، يمكنك حصرا ارجاع المنتج حسب سياسة الارجاع المشار إليها أدناه.<br>معلومات التسعير<br>نحتفظ وحسب تقديرنا المنفرد بحق عدم قبول أو إلغاء أي طلبيات يتم وضعها لمنتجات أو خدمات تكون أسعارها غير صحيحة على الموقع نتيجة لخطأ ما. في هذه الحالة نقوم بإرسال إشعار بهذا الخصوص عبر البريد الإلكتروني. بالإضافة إلى ذلك، نحتفظ وحسب تقديرنا المنفرد بحق تصحيح الخطأ في السعر الكامل المصرح به &nbsp;&nbsp;<br>سياسة الإرجاع<br>تقبل Dyzzistore بإرجاع المنتج حسب الحالة. لمراجعة سياسة الارجاع والتي نحتفظ بالحق في تغيرها في اي وقت</p>
+                                                                    <p>&lrm;الاستبدال<br>&lrm;إذا كنت غير راض عن المنتج لوجود عيب حدث للمنتج خلال عملية الشحن أو وصلكم منتج مختلف عن طلبكم فكل ما تقوم به هو الارسال عن طريق الواتس اب بخدمة العملاء على الرقم&nbsp; داخل المملكة&nbsp;0531140013&nbsp;أو ارسال رسالة الكترونية على البريد التالي&nbsp;&nbsp;Info@dyzzistore.com خلال&nbsp;7&nbsp;أيام من استلام طلبكم. سوف تصلكم &nbsp;بوليصة الإرجاع. قم بطباعتها وأحضرها الى أقرب مكتب شركة سمسا بجواركم.مع ابقاء المنتج غير مستخدم وبحالة جيدة والبطاقات الملصقة غير منزوعة وغير منزوع التغليف من العبوة والعبوة الأصلية سليمة وغير متضررة</p>
+                                                                    <p>&lrm;التعويض<br>&lrm;تقتضي سياسة&nbsp;ديزي ستور&nbsp;عدم ارجاع أي من المبالغ التي يقوم العميل بسدادها باستخدام اي من وسائل الدفع عند الشراء على الموقع. حيث نوفر لزبائننا الكرام خدمة استرجاع المبالغ التي دفعوها عن طريق استبدالها بقسائم شرائية بنفس القيمة، كما أننا نتيح لك أن تستبدل المنتجات التي اشتريتها مجاناً، حيث سنتكفل نحن بمصاريف إعادة المنتج ونصدر قسيمة شرائية بنفس قيمة المنتج الذي سيتم استبداله. تمكنك هذه الطريقة من اختيار القياس المناسب من نفس المنتج الذي تم إعادته او شراء منتج آخر بنفس القيمة.</p>
+                                                                    <p>القابلية للفصل<br>&nbsp;في حالة ما إذا تقرر بأن إذا اعتبر أي بند من اتفاقية الاستخدام غير صالح أو باطل أو غير قابل للتنفيذ لأي سبب من الأسباب ويعتبر هذا الشرط للفصل يجب ألا يؤثر على صحة ونفاذ الأحكام المتبقية من اتفاقية الاستخدام. في مثل هذه الحالة سيؤول ذلك الجزء بطريقة تتسق مع القانون الساري ليعكس بأقرب صورة ممكنة النوايا الأصلية للأطراف وتبقى الأجزاء الباقية كاملة النفاذ وفقاً للقوانين المعمول بها.<br>تطبيق القانون والهيئات القضائية<br>تُفسّرُ هذه الشروط والأحكام وتُطبّقُ بموجب القوانين النافذة في المملكة العربية السعودية، يوافقُ كلّ فريق ههنا على المثول أمام هيئات محاكم المملكة العربية السعودية القضائية، والتنازل عن أية اعتراضات مبنية على مكان الدعوى.<br>حل النزاعات<br>في حال أي خلاف أو ادعاءات أو نزاعات ناشئة عن أو مرتبطة بأي معاملة يتم تنفيذها على الموقع أو مخالفة أو تنفيذ أو تفسير أو صلاحية الأحكام والشروط أو أي جزء من (“النزاع”)، يجب على الطرف الأول وديا محاولة تسوية المنازعات من خلال المفاوضات بحسن نية وذلك بمنحها مهلة للرد لمدة فترة ثلاثين يوما (30)&nbsp;ارسال أول رسالة مكتوبة يخبر به الطرف الآخر بالنزاع.<br>الشكاوى والملاحظات ترسل الى العنوان أدناه:<br>ديزي ستور<br>الرياض رقم 0531140013 السعودية<br>عمليّة الإبطال<br>فضلًا عن أيّة تعويضاتٍ قانونيةٍ أو مُنصفةٍ، قد نُبطل فورًا، ومن دون سابق إنذار، هذه الشروط والأحكام أو نلغي أيًّا من حقوقك الممنوحة أو جميعها بموجب الشروط والأحكام. بناءً على أيّ إبطال لهذا الاتفاق، يتعيّن عليك التوقّف فورًا عن زيارة الموقع واستخدامه وقد نُلغي فورًا، فضلًا عن أيّة تعويضاتٍ قانونية أو مُنصفةٍ، جميع كلمات السرّ أو المرور أو غيرها من أساليب التعريف الخاصة بك، ونرفض أي زيارة أو استخدام لهذا الموقع، كلّيًا أو جزئيًا. ولن يؤثر أي إبطال لهذا الاتفاق على كلّ الحقوق والتزامات (بما في ذلك ولكن ليس على سبيل الحصر، التزامات الدفع) الأطراف الصادرة قبل تاريخ الإبطال. وإنّك توافق أيضًا على أنّ الموقع ما عاد مسؤولًا عنك أو عن أيّ فردٍ آخر نتيجة تعليق الموقع أو إبطاله. وإذا كنتَ غير راضٍ عن هذا الموقع أو عن أيّة من شروطه أو أحكامه أو نظامها وسياساته أو مبادئه التوجيهية أو ممارسات ديزي ستور في كيفيّة إدارة الموقع، فحلُّكَ الوحيد والحصري عندئذٍ هو التوقّف عن استخدام الموقع.<br>الشروط والأحكام للعروض والخصومات:</p>
+                                                                </div>
+                                                                <p class="form-row validate-required">
+                                                                <label class="woocommerce-form__label woocommerce-form__label-for-checkbox checkbox">
+                                                                    <input type="checkbox" class="woocommerce-form__input woocommerce-form__input-checkbox input-checkbox" name="terms" id="terms">
+                                                                    <span class="woocommerce-terms-and-conditions-checkbox-text">لقد قرأتُ <a href="#" class="woocommerce-terms-and-conditions-link color-red" target="_blank">الشروط والأحكام</a> و <a href="#" class="color-red woocommerce-privacy-policy-link" target="_blank">سياسة الخصوصية</a> لهذا المتجر وأوافق عليها</span>&nbsp;<span class="required">*</span>
+                                                                </label>
+                                                                <input type="hidden" name="terms-field" value="1">
+                                                                </p>
+                                                            </div>
+
+                                                            <button type="submit" class="button alt bg-brown" name="woocommerce_checkout_place_order" id="place_order" value="تأكيد الطلب" data-value="تأكيد الطلب">تأكيد الطلب</button>
+
+                                                            <input type="hidden" id="woocommerce-process-checkout-nonce" name="woocommerce-process-checkout-nonce" value="5b277dab4c"><input type="hidden" name="_wp_http_referer" value="/?wc-ajax=update_order_review">	</div>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+
+                                </form>
+
+                            </div>
+                        </div>
+                    </article>
+
+
 
                 </div>
 
-                <div class="row row-clos-1 row-cols-lg-2 mb-3 rlt">
+            </div>
+        </div>
+   </div>   
 
-                    <div class="px-2 mb-3">
-                        <label class="rlt float-right">البريد الالكتروني (اختياري)</label><br>
-                        <input type="text" class="form-control">
-                    </div>
+   <nav class="navbar navbar-light rlt mt-5 hide-up">
+    <div class="container-fluid">
+      <div class="justify-content-end" >
+        <div class="navbar-nav flex-row">
+            <a class="p-3 " href="#"><h4 class="mb-0 color-main">قهوتنا الخاصة</h4></a>
+            <a class="p-3 " href="#"><h4 class="mb-0 color-main">قهوة عربية</h4></a>
+            <a class="p-3 " href="#"><h4 class="mb-0 color-main">قهوة مختصة</h4></a>
+            <a class="p-3 " href="#"><h4 class="mb-0 color-main">هيل و زعفران</h4></a>
 
-                    <div class="px-2 mb-3">
-                        <label class="rlt float-right"> الدولة  <sup class="text-danger">*</sup></label><br>
-                        <input type="text" value="المملكة العربية السعودية"  disabled class="form-control">
-                    </div>
-
-                </div>
-
-                <div class="row row-clos-1 px-2 rlt mb-3">
-                    <label class="rlt float-right"> المدينة  <sup class="text-danger">*</sup></label><br>
-                    <select class="form-control" required>
-                        <option>مدينة 1</option>
-                        <option>مدية2</option>
-                        <option>مدينة 3</option>
-                        <option>مدينة 4</option>
-                        <option>مدينة 5</option>
-                    </select>
-                </div>
-
-                <div class="row row-clos-1 px-2 rlt ">
-                    <label class="rlt float-right"> الحي  <sup class="text-danger">*</sup></label><br>
-                    <input type="text" class="form-control" required>
-                </div>
-                <br>
-                <hr>
-                <br>
-                <h3 class="text-right mb-3">  معلومات اضافية </h3>
-
-                <div class="row row-clos-1 px-2 rlt mb-3">
-                    <label class="rlt float-right"> ملاحظات (اختياري)</label><br>
-                    <textarea type="text" class="form-control" placeholder="ملاحظات حول الطلب مثال : ملحوظة خاصة بتسليم الطلب"></textarea>
-                </div>
-
-            </section>
-
-        </form>
+          </div>
       </div>
+    </div>
+</nav>
+
+<nav class="rlt position-fixed w-100 mb-0 pb-0 hide-down" style="bottom: 0;z-index: 20;" >
+    <div class="d-flex flex-row justify-content-around nav-but pr-2" style="background-color: #4b3231;">
+        <a class="p-1 color-main-two rb" href="#">قهوتنا الخاصة</a>
+        <a class="p-1 color-main-two rb" href="#">قهوة عربية</a>
+        <a class="p-1 color-main-two rb" href="#">قهوة مختصة</a>
+        <a class="p-1 color-main-two rb" href="#">هيل و زعفران</a>
+
+    </div>
+</nav>
+
+
+
   </body>
 </html>

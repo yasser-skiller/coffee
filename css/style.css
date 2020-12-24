@@ -117,7 +117,11 @@ body {
   font-family: 'Amiri', serif;
   overflow-x: hidden !important;
   background-color: #49282a !important;
-  color: #ece9e9 !important; }
+  color: #c4c2c2 !important; }
+
+@font-face {
+  font-family: 'woodmart-font';
+  src: url("./../font/woodmart-font.woff"); }
 
 .rlt {
   direction: rtl !important; }
@@ -301,7 +305,11 @@ body {
   font-family: 'Amiri', serif;
   overflow-x: hidden !important;
   background-color: #49282a !important;
-  color: #ece9e9 !important; }
+  color: #c4c2c2 !important; }
+
+@font-face {
+  font-family: 'woodmart-font';
+  src: url("./../font/woodmart-font.woff"); }
 
 .rlt {
   direction: rtl !important; }
@@ -470,6 +478,12 @@ a {
   .sp_header .Main_title p {
     color: #fff; }
 
+.shopping-cart22 {
+  width: 15%; }
+  @media (max-width: 992px) {
+    .shopping-cart22 {
+      width: 25%; } }
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -483,7 +497,11 @@ body {
   font-family: 'Amiri', serif;
   overflow-x: hidden !important;
   background-color: #49282a !important;
-  color: #ece9e9 !important; }
+  color: #c4c2c2 !important; }
+
+@font-face {
+  font-family: 'woodmart-font';
+  src: url("./../font/woodmart-font.woff"); }
 
 .rlt {
   direction: rtl !important; }
