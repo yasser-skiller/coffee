@@ -12,26 +12,23 @@ arr_active_link.forEach(element => {
 
 var swiper = new Swiper('.swiper-container', {
   slidesPerView: 1,
-  spaceBetween: 30,
+  spaceBetween: 20,
   // init: false,
   pagination: {
     el: '.swiper-pagination',
     clickable: true,
   },
-  // breakpoints: {
-  //   640: {
-  //     slidesPerView: 2,
-  //     spaceBetween: 20,
-  //   },
-  //   768: {
-  //     slidesPerView: 2,
-  //     spaceBetween: 40,
-  //   },
-  //   2024: {
-  //     slidesPerView: 2,
-  //     spaceBetween: 50,
-  //   },
-  // }
+  breakpoints: {
+    500: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+    
+  }
 });
 // var swiper = new Swiper('.swiper-container', {
 //   slidesPerView: 4,
