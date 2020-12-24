@@ -152,6 +152,9 @@ body {
 .color-brown {
   color: #9e724c !important; }
 
+.bg-brown {
+  background-color: #9e724c !important; }
+
 .color-btn-2 {
   color: #977879 !important; }
 
@@ -238,6 +241,53 @@ a {
   .sp_header .Main_title p {
     color: #fff; }
 
+.border-b {
+  border-bottom: 1px solid #e7e7e7; }
+
+.bg-blue {
+  background-color: #1b1930 !important; }
+
+@media (max-width: 992px) {
+  #your_bill {
+    -webkit-box-ordinal-group: 201 !important;
+        -ms-flex-order: 200 !important;
+            order: 200 !important; } }
+
+.pay_icon {
+  width: 25px;
+  height: 25px; }
+
+.cr-border {
+  border: 1px solid #574e5b;
+  border-radius: 20px;
+  padding: 3px; }
+
+.tap {
+  border-right: 2px solid #8a8a8a;
+  padding-right: 10px; }
+
+.cr_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  border: 2px solid #515151;
+  width: 30px;
+  height: 30px; }
+
+.cr_2 {
+  margin: auto;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #515151; }
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -285,6 +335,9 @@ body {
 
 .color-brown {
   color: #9e724c !important; }
+
+.bg-brown {
+  background-color: #9e724c !important; }
 
 .color-btn-2 {
   color: #977879 !important; }
@@ -464,6 +517,9 @@ body {
 
 .color-brown {
   color: #9e724c !important; }
+
+.bg-brown {
+  background-color: #9e724c !important; }
 
 .color-btn-2 {
   color: #977879 !important; }
