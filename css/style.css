@@ -172,7 +172,7 @@ body {
   .hide-up {
     display: none !important; } }
 
-@media (min-width: 766px) {
+@media (min-width: 767px) {
   .hide-down {
     display: none !important; } }
 
@@ -360,7 +360,7 @@ body {
   .hide-up {
     display: none !important; } }
 
-@media (min-width: 766px) {
+@media (min-width: 767px) {
   .hide-down {
     display: none !important; } }
 
@@ -552,7 +552,7 @@ body {
   .hide-up {
     display: none !important; } }
 
-@media (min-width: 766px) {
+@media (min-width: 767px) {
   .hide-down {
     display: none !important; } }
 
